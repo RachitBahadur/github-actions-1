@@ -8,6 +8,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      -name: Check out repositiory code
-       uses: actions/checkout@v4
-      -run: echo "$(cat hellow-world.txt)"
+      - name: Check out repositiory code
+        uses: actions/checkout@v4
+      - run: echo "$(cat hellow-world.txt)"
