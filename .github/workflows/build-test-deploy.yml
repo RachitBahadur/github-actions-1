@@ -47,7 +47,7 @@ jobs:
       - name: checkout repo
         uses: actions/checkout@v4
         with:
-          repository: RachitBahadur/github-actions-1
+          #repository: RachitBahadur/github-actions-1
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       - name: use node.js
         uses: actions/setup-node@v4
