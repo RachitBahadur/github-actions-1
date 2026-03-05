@@ -10,4 +10,4 @@ jobs:
     steps:
       - name: Check out repositiory code
         uses: actions/checkout@v4
-      - run: echo "$(cat hellow-world.txt)"
+      - run: echo "$(cat hellow_world.txt)"
