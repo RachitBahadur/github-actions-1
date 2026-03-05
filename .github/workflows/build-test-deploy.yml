@@ -41,6 +41,8 @@ jobs:
       name: production
       url: ${{ steps.deployment.outputs.page.url }}
 
+    runs-on: ubuntu-latest
+
     steps:
       - name: checkout repo
         uses: actions/checkout@v4
